@@ -1,4 +1,4 @@
-# jaywme.github.io
+# Caleb J. Wilson
 
 Personal website for **Caleb Wilson** — graduate student in the Robotics Department at the
 University of Texas at Austin, working on embodied AI and large language models.
