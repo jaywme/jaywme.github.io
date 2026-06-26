@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caleb Wilson — Embodied AI &amp; LLM Researcher</title>
+  <meta name="description" content="Caleb Wilson — graduate student at the University of Texas at Austin working on embodied AI, large language models, and robot learning." />
+  <meta name="author" content="Caleb Jay Wilson" />
+  <meta property="og:title" content="Caleb Wilson — Embodied AI &amp; LLM Researcher" />
+  <meta property="og:description" content="Graduate student at the University of Texas at Austin working on embodied AI and large language models." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/avatar.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz@0,6..72;1,6..72&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%23bf5700%22/><text x=%2250%22 y=%2268%22 font-size=%2250%22 text-anchor=%22middle%22 fill=%22%23ffffff%22 font-family=%22sans-serif%22 font-weight=%22bold%22>CW</text></svg>" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a href="#top" class="brand">Caleb&nbsp;Wilson</a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">◐</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-text">
+        <p class="eyebrow">Embodied AI · Large Language Models · Robot Learning</p>
+        <h1>Caleb&nbsp;Wilson</h1>
+        <p class="lede">
+          I'm a graduate student in the
+          <strong>Robotics Department</strong> at the
+          <strong>University of Texas at Austin</strong>, where I'm part of
+          the <strong>Grounded Embodied Learning (GEL) Lab</strong>. I work on giving
+          language models a body — connecting the reasoning of LLMs to robots
+          that perceive, plan, and act in the messy physical world.
+        </p>
+        <p class="sub">
+          Originally from <strong>San Angelo, Texas</strong> 🤠 — raised on big
+          West Texas skies, the Concho River, and good Tex-Mex, now somewhere
+          between a robotics building and too many tabs of arXiv.
+        </p>
+        <div class="cta-row">
+          <a class="btn primary" href="#research">See my research</a>
+          <a class="btn" href="assets/jay_y_cv.html" target="_blank" rel="noopener">CV</a>
+          <a class="btn ghost" href="https://github.com/jaywme" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <div class="social">
+          <a href="https://github.com/jaywme" target="_blank" rel="noopener">GitHub</a>
+          <span>·</span>
+          <a href="https://scholar.google.com" target="_blank" rel="noopener">Scholar</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="avatar"><img src="assets/avatar.svg" alt="Caleb Wilson's avatar — a cat illustration" /></div>
+        <ul class="facts">
+          <li><span>📍</span> Austin, TX</li>
+          <li><span>🏙️</span> Home: San Angelo, TX</li>
+          <li><span>🎓</span> M.S. → Ph.D., Robotics</li>
+          <li><span>✦</span> Embodied AI &amp; LLMs</li>
+          <li><span>☕</span> Currently: a lot of coffee</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="wrap section">
+      <h2>About</h2>
+      <div class="prose">
+        <p>
+          I grew up in <strong>San Angelo, Texas</strong>, where my first
+          "robot" was a Roomba I kept reprogramming to avoid the cat. That
+          curiosity turned into a degree in Computer Science, and eventually
+          into research on how machines can understand and act in the real
+          world. Today I'm a graduate student at the
+          <strong>University of Texas at Austin</strong>, in the Grounded Embodied
+          Learning (GEL) Lab, where I split my time between training large
+          vision-language-action models and debugging why the robot arm keeps
+          knocking over my coffee.
+        </p>
+        <p>
+          My broad interest is <em>embodied intelligence</em>: I believe the
+          next leap for AI won't come from text alone, but from agents that are
+          grounded in perception, action, and consequence. I care about making
+          models that are not just capable, but reliable and
+          <strong>sample-efficient</strong> enough to learn from a handful of
+          demonstrations rather than millions.
+        </p>
+        <p>
+          Outside of research, you'll find me hunting for the best hand-pull
+          noodles in town, playing pickup basketball, or taking the long way
+          home so I can listen to one more podcast episode.
+        </p>
+      </div>
+    </section>
+
+    <section id="research" class="section alt">
+      <div class="wrap">
+        <h2>Research</h2>
+        <p class="section-lede">
+          I want robots that can be <em>told</em> what to do in plain language
+          and figure out the rest. My work sits at the intersection of three
+          threads:
+        </p>
+        <div class="cards">
+          <article class="card">
+            <div class="card-icon">◆</div>
+            <h3>Vision-Language-Action Models</h3>
+            <p>
+              Training end-to-end policies that map camera pixels and a natural
+              language instruction directly to robot actions, and studying how
+              to scale them without scaling the demonstration budget.
+            </p>
+          </article>
+          <article class="card">
+            <div class="card-icon">🧠</div>
+            <h3>LLMs as Planners</h3>
+            <p>
+              Using large language models as high-level planners that decompose
+              long-horizon tasks into grounded subgoals — and keeping them
+              honest with closed-loop feedback from the environment.
+            </p>
+          </article>
+          <article class="card">
+            <div class="card-icon">🔁</div>
+            <h3>Learning from Few Demonstrations</h3>
+            <p>
+              Imitation and reinforcement learning methods that generalize from
+              a handful of human demonstrations, with a focus on robustness to
+              distribution shift in the real world.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="wrap section">
+      <h2>What I'm Working On</h2>
+      <p class="section-lede">
+        I'm early in grad school, so most of this is in-progress rather than
+        published — research questions I'm actively chasing. I'll add papers
+        here as they come together.
+      </p>
+      <ol class="pubs">
+        <li>
+          <h3>Closed-loop LLM planning for long-horizon manipulation</h3>
+          <p class="venue">Ongoing project · manuscript in preparation</p>
+          <p class="authors">Studying how to keep an LLM planner grounded when a multi-step task drifts off course — using environment feedback to re-plan instead of failing silently.</p>
+        </li>
+        <li>
+          <h3>Data-efficient vision-language-action policies</h3>
+          <p class="venue">Ongoing project</p>
+          <p class="authors">Can a manipulation policy generalize from a handful of demonstrations? Exploring pretraining and augmentation tricks that stretch a small demo budget.</p>
+        </li>
+        <li>
+          <h3>Calibrated uncertainty for embodied agents</h3>
+          <p class="venue">Course project · exploratory</p>
+          <p class="authors">When should a robot say "I'm not sure" and ask for help? A side project on getting policies to know the limits of their own competence.</p>
+        </li>
+      </ol>
+      <p class="note">I'll keep this page updated as projects mature — nothing here is peer-reviewed yet.</p>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="wrap">
+        <h2>Projects &amp; Open Source</h2>
+        <div class="cards">
+          <article class="card project">
+            <h3>tinyVLA</h3>
+            <p>
+              A minimal, hackable PyTorch implementation of a vision-language-action
+              policy — built for teaching and quick experiments. ~1.8k stars.
+            </p>
+            <p class="links"><a href="https://github.com/jaywme" target="_blank" rel="noopener">GitHub →</a></p>
+          </article>
+          <article class="card project">
+            <h3>armbench-lite</h3>
+            <p>
+              Lightweight simulation benchmarks for tabletop manipulation that
+              run on a single laptop GPU. Used in two grad courses at U-M.
+            </p>
+            <p class="links"><a href="https://github.com/jaywme" target="_blank" rel="noopener">GitHub →</a></p>
+          </article>
+          <article class="card project">
+            <h3>concho-bot</h3>
+            <p>
+              A weekend project: a tiny LLM agent that texts me the day's West
+              Texas weather and Concho River level before I head out for a run.
+            </p>
+            <p class="links"><a href="https://github.com/jaywme" target="_blank" rel="noopener">GitHub →</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <h2>Timeline</h2>
+      <ul class="timeline">
+        <li>
+          <span class="when">2024 — present</span>
+          <div>
+            <strong>Graduate Student, Robotics</strong> · University of Texas at Austin
+            <p>Research on embodied AI and LLM-driven robot policies.</p>
+          </div>
+        </li>
+        <li>
+          <span class="when">Summer 2025</span>
+          <div>
+            <strong>Research Intern</strong> · Embodied AI startup
+            <p>Scaled vision-language-action pretraining on a fleet of mobile manipulators.</p>
+          </div>
+        </li>
+        <li>
+          <span class="when">2020 — 2024</span>
+          <div>
+            <strong>B.S. in Computer Science</strong> · Stony Brook University
+            <p>Graduated with honors; undergrad thesis on sim-to-real transfer.</p>
+          </div>
+        </li>
+        <li>
+          <span class="when">Before that</span>
+          <div>
+            <strong>Central High School</strong> · San Angelo, TX
+            <p>Where the Roomba experiments began.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="wrap contact">
+        <h2>Get in touch</h2>
+        <p>
+          I'm always happy to chat about embodied AI, grad school, or where to
+          find good dumplings in Austin. The best way to reach me is GitHub:
+        </p>
+        <div class="contact-row">
+          <a class="btn primary" href="https://github.com/jaywme" target="_blank" rel="noopener">github.com/jaywme</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>© <span id="year"></span> Caleb Wilson · Built with plain HTML &amp; CSS · Hosted on GitHub Pages.</p>
+    <p class="tiny">Austin, TX · San Angelo, TX</p>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>

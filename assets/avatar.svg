@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Cute white cat avatar">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff9a52"/>
+      <stop offset="1" stop-color="#bf5700"/>
+    </linearGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f1ece6"/>
+    </linearGradient>
+    <clipPath id="circle"><circle cx="128" cy="128" r="128"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#circle)">
+    <rect width="256" height="256" fill="url(#bg)"/>
+    <circle cx="128" cy="122" r="96" fill="#ffffff" opacity="0.08"/>
+
+    <!-- chest / body -->
+    <path d="M60 256 C64 214 92 192 128 192 C164 192 192 214 196 256 Z" fill="url(#fur)"/>
+
+    <!-- ears -->
+    <path d="M72 98 L78 42 L122 80 Z" fill="url(#fur)"/>
+    <path d="M184 98 L178 42 L134 80 Z" fill="url(#fur)"/>
+    <path d="M84 88 L88 58 L110 78 Z" fill="#f7b9c4"/>
+    <path d="M172 88 L168 58 L146 78 Z" fill="#f7b9c4"/>
+
+    <!-- head -->
+    <path d="M58 126 C58 86 88 66 128 66 C168 66 198 86 198 126
+             C198 166 168 194 128 194 C88 194 58 166 58 126 Z" fill="url(#fur)"/>
+
+    <!-- blush cheeks -->
+    <ellipse cx="92"  cy="150" rx="13" ry="8" fill="#ffc2cf" opacity="0.85"/>
+    <ellipse cx="164" cy="150" rx="13" ry="8" fill="#ffc2cf" opacity="0.85"/>
+
+    <!-- big cute eyes -->
+    <ellipse cx="102" cy="130" rx="14" ry="17" fill="#3a2f2a"/>
+    <ellipse cx="154" cy="130" rx="14" ry="17" fill="#3a2f2a"/>
+    <circle cx="97"  cy="124" r="5.5" fill="#ffffff"/>
+    <circle cx="149" cy="124" r="5.5" fill="#ffffff"/>
+    <circle cx="106" cy="135" r="2.6" fill="#ffffff" opacity="0.9"/>
+    <circle cx="158" cy="135" r="2.6" fill="#ffffff" opacity="0.9"/>
+
+    <!-- nose + mouth (:3) -->
+    <path d="M122 150 L134 150 L128 158 Z" fill="#f28ea3"/>
+    <path d="M128 158 v5 M128 163 q-8 8 -16 1 M128 163 q8 8 16 1"
+          fill="none" stroke="#c98aa0" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- whiskers -->
+    <g stroke="#e7ddd2" stroke-width="2.5" stroke-linecap="round">
+      <path d="M88 152 L46 144"/>
+      <path d="M88 160 L48 166"/>
+      <path d="M168 152 L210 144"/>
+      <path d="M168 160 L208 166"/>
+    </g>
+  </g>
+</svg>
